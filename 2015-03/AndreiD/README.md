@@ -7,16 +7,18 @@ Summary
 ### My S4 Developers Challenge App :)
 
 
-![alt text](https://github.com/AndreiD/Flask-Easy-Template/blob/master/app/static/img/screenshot1.jpg "How the app looks 1")
+![alt text](https://raw.githubusercontent.com/Ontotext-AD/S4-challenge/master/2015-03/AndreiD/screenshot.png "How the app looks 1")
 
 
 SpeechZilla (alternative name :) OntoSpeech) is a speech analysis and classifier.  It will support 40 languages (right now, only English, not enough time to test the other ones)... no Bulgarian is not in them.
 Example usages (simple) conference room, justice courts, school classes etc, public speeches
 Complex (Automated Call centers)...etc
 
-It can:  with Text Analytics from S4 can analyze the speech and extract useful information. Map it to a map, classify it.
+#### What it does more exactly ? 
 
-You can see a video here with Obamas's Speach... 
+With Text Analytics from S4 can analyze the speech and extract useful information. Map it to a map, classify it.
+
+### You can see a video here with Obamas's Speach... 
 
 https://drive.google.com/file/d/0BxEDZ5Utsbsxd3phRUpsdDM5dGs/view?usp=sharing
 
