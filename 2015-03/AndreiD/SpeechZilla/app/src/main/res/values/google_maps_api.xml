@@ -1,0 +1,16 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D0:7B:AB:82:36:C1:B7:83:92:15:96:0D:95:C0:47:F2:17:4A:60:3F%3Bcom.classicharmony.speechzilla
+
+    You can also add your credentials to an existing key, using this line:
+    D0:7B:AB:82:36:C1:B7:83:92:15:96:0D:95:C0:47:F2:17:4A:60:3F;com.classicharmony.speechzilla
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyB9JV3te3HJHI2yyBr6JtgMIBdRe5jpCRY</string>
+</resources>

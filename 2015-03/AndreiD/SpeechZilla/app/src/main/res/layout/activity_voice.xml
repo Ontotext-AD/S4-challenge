@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/bg_gradient"
+  android:layout_width="fill_parent" android:layout_height="fill_parent">
+<EditText android:layout_height="match_parent" android:layout_width="fill_parent" android:id="@+id/text_DictationResult" android:gravity="top|left"
+          android:layout_above="@+id/layout_bottomButtons"
+          android:textColor="#888"
+          android:textSize="14sp"
+    ></EditText>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_toRightOf="@+id/btn_startDictation" android:id="@+id/layout_bottomButtons" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:orientation="horizontal">
+<Button android:layout_height="wrap_content" android:id="@+id/btn_startDictation" android:text="Start" android:layout_width="0dp" android:layout_weight="1"></Button>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:id="@+id/button_analyze"
+            android:text="Analyze &amp; Save"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="created at"
+        android:id="@+id/textView_row_created_at"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full text...."
+        android:id="@+id/textView_row_fulltext"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:maxLines="3"
+        android:textSize="14sp"
+        android:textColor="#333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="locations..."
+        android:id="@+id/textView_row_locations"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#EE8888"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="organizations"
+        android:id="@+id/textView_row_organizations"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#88CC88"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keywords"
+        android:id="@+id/textView_row_keywords"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#8888EE"/>
+
+</LinearLayout>
