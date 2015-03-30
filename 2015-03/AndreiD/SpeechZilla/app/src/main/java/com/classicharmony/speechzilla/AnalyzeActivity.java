@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.classicharmony.speechzilla.adapters.TheListAdapter;
 import com.classicharmony.speechzilla.models.TheNote;
@@ -143,6 +144,7 @@ public class AnalyzeActivity extends ActionBarActivity {
                     if (errorResponse != null) {
                         String server_output = new String(errorResponse, "utf-8");
                         Log.d("FAILED", server_output);
+                        Toast.makeText(mContext,"S4 processing failed with reason "+server_output,Toast.LENGTH_LONG).show();
                     }
                 } catch (UnsupportedEncodingException ex) {
                     e.printStackTrace();
